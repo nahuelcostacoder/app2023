@@ -1,0 +1,24 @@
+.form{
+    width: initial;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.form input{
+    width: 90%;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+}
+.form button{
+    width: 25%;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+.form-p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+}

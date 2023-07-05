@@ -1,0 +1,51 @@
+.Header{
+    z-index: 2;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%);;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logo h2{
+    color: white;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+.logo img{
+    height: 50px;
+    padding: 10px;
+}
+.pages{
+    width: 350px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.pages button{
+    color: white;
+    background-color: inherit;
+    font-size: 25px;
+    border: none;
+    justify-content: center;
+    padding-top: 10px;
+    text-decoration: none;
+
+}
+.pages button:hover{
+    color: rgb(109, 216, 240);
+    transition: 0.8 all ease-in;
+    cursor: pointer;
+}

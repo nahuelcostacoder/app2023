@@ -1,0 +1,27 @@
+.alert{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    padding: 10% 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.alerta{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    background-color: rgb(117, 237, 245);
+    width: 30%;
+    color: black;
+    padding: 5px;
+}
+.alerta h2{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.alerta p{
+    font-size: 20px;
+}

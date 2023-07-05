@@ -1,0 +1,55 @@
+.whatwedo{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    position: center;
+
+    h2{
+        background: rgb(117, 237, 245);
+        padding: 20px;
+        border-radius: 5px;
+        border: 10px;
+        position: center;
+        justify-content: center;
+        left: 50%;
+        width: fit-content;
+        transform: translateX(-50%);
+        position:relative;
+        color: black;
+        
+    }
+    p{
+        padding: 20px 0 20px 0;
+    }
+}
+
+.demoTry{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    position: center;
+
+
+    h3{
+        background: rgb(117, 202, 245);
+        padding: 20px;
+        border-radius: 5px;
+        border: 10px;
+        position: center;
+        justify-content: center;
+        left:39%;
+        width: 20%;
+        position:relative;
+        color: black;
+
+    }
+
+    p{
+        padding: 30px;
+    }
+
+    
+
+}

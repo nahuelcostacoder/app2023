@@ -1,0 +1,102 @@
+@import "../sColors.scss";
+
+
+.title_carrito {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+.container_cart { 
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 150px;
+    font-family: 'Poppins', sans-serif;
+    
+    .cart_add_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: space-around;
+    align-items: flex-start;
+
+    .card {
+        width: 400px;
+        bottom: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        
+        border-radius: 10px;
+        padding: 10px;
+        bottom: 200px;
+        background:rgb(164, 242, 224);
+        border: 1px solid #8f8686;
+        margin: 10px;
+        color: #000000;
+        img {
+            width: 100px;
+        }
+        p{
+            text-align: justify;
+            margin: 0px 20px;
+        }
+    }
+}
+}
+.cantidad{
+    display: flex;
+    align-items: center;
+    p{
+        margin: 0px 20px;
+    }
+    span{
+        color: green;
+    }
+}
+.button {
+    padding: 10px;
+    border: none;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.buy{    background: #aaf195;}
+.del{    background: #f19d95;}
+
+
+.text{
+    margin: 0px 5px;
+}
+/* .cart_add_container .card img {
+    width: 100px;
+}
+
+.cart_add_container button {
+    padding: 10px;
+    border: none;
+    background: #fff;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+} */
+
+h1 {
+    color: #fff;
+    text-align: center;
+
+}

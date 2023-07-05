@@ -1,0 +1,23 @@
+button{
+    display: block;
+    margin: 30px auto;
+    font-size: large;
+}
+form {
+    background-color: rgb(117, 237, 245);
+    width: max-content;
+    margin: 5px auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 30px;
+}
+form p{
+    color: black;
+    padding-bottom: 2px;
+}
+form button{
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}

@@ -1,0 +1,68 @@
+//variables 
+@import "../sColors.scss";
+
+
+
+
+
+
+
+.content {
+    font-family: 'Poppins', sans-serif;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:300px;
+    margin-bottom: 200px;
+   
+    
+    h2{
+        font-size: 2rem;
+        background: rgb(117, 245, 245);
+        color: rgb(28, 31, 47);
+        padding: 20px;
+        border-radius: 5px;
+        border: 20px;
+        
+    }
+    
+    flex-direction: column;
+  
+   
+
+}
+
+
+
+.productos_section{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    align-items: flex-start;
+    padding: 0 0 200px 0;
+    
+    
+    .card {
+        width: 400px;
+        bottom: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        border-radius: 10px;
+        padding: 10px;
+        bottom: 200px;
+        background:rgb(164, 242, 224);
+        border: 1px solid #8f8686;
+        margin: 10px;
+        color: #000000;
+        img {
+            width: 100px;
+        }
+    }
+}

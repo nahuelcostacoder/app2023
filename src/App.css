@@ -1,0 +1,7 @@
+body{
+  margin: 0px;
+}
+.text-light{color: black;}
+.background-light{background-color: rgb(132, 144, 255) !important;}
+.text-dark{color: white;}
+.background-dark{background-color: rgb(117, 237, 245) !important;}
